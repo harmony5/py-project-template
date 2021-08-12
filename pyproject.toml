@@ -1,8 +1,15 @@
 [tool.poetry]
 name = "project-template"
 version = "0.1.0"
-description = ""
+description = "Simple starter template for python projects."
 authors = ["harmony5 <jeancgo@pm.me>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/harmony5/py-project-template"
+homepage = "https://github.com/harmony5/py-project-template"
+packages = [
+    { include = "py_project_template", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
